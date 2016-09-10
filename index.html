@@ -8,52 +8,97 @@
     <title>Books.Modern Developer</title>
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,300italic|Roboto+Slab:400,300,700,100' rel='stylesheet' type='text/css'>
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="main.css">
 
 </head>
 <body>
+
+
     <header>
 
-            <a class="header-logo" href="#"><img src="images/books.MD_logo_icon.png" alt="Modern Developer Logo"></a>
-
-        <div class="header-text">
-            <h1 class="header-title"><b>Books. </b>Modern Developer</h1>
-            <h2 class="header-subtitle">The largest Resource of Web and Mobile Developement and Programming Books</h2>
-        </div>
-
-        <div class="search-bar">
-            <input type="search" id="search" placeholder="Search books by any keyword or title...">
-            <button class="icon" ><i class="fa fa-search fa-2x"></i></button>
-
+        <div class="header-wrapper-content">
+            <div class="header-text">
+                <div>
+                    <a class="header-logo" href="#"><img src="images/books.MD_logo_icon.png" alt="Modern Developer Logo"></a>
+                </div>
+                <div>
+                    <h1 class="header-title"><b>Books. </b>Modern Developer</h1>
+                    <h2 class="header-subtitle">The largest Resource of Web and Mobile Developement and Programming Books</h2>
+                </div>
+            </div>
+            <div class="search-bar">
+                <input type="search" id="search" placeholder="Search books by any keyword or title...">
+                <button class="icon" ><i class="fa fa-search fa-2x"></i></button>
+            </div>
         </div>
     </header>
 
-            <nav class="main-nav">
-                <a href="#" class=" item">UI/UX Design</a>
-                <a href="#" class="item">Web Programming</a>
-                <a href="#" class="item">Frontend Development</a>
-                <a href="#" class="active item green">Javascript</a>
-                <a href="#" class="item">Mobile Development</a>
-                <a href="#" class="item">Backend Development</a>
-            </nav>
-
-
-    <div class="ui container">
-
-
+    <div class="main-nav-wrapper-content">
+        <nav class="main-nav">
+            <a href="#" class=" item">UI/UX Design</a>
+            <a href="#" class="item">Web Programming</a>
+            <a href="#" class="item">Frontend Development</a>
+            <a href="#" class="active item green">Javascript</a>
+            <a href="#" class="item">Mobile Development</a>
+            <a href="#" class="item">Backend Development</a>
+        </nav>
     </div>
-    <footer>
-        <div class="footer-logo">
-            <img src="images/books.MD_footer_logo_icon.png" alt="Books.Modern Developer footer logo">
-        </div>
-        <div class="footer left content">
-            <p><b>Books</b>.Modern Developer</p>
-        </div>
-        <div class="footer right-content">
-            <p class="copyright">&copy; 2016 Modern Developer Inc.</p>
-            <p class="contact email">books@moderndeveloper.com</p>
-        </div>
 
+    <section class="ui container">
+        <div class="main-content-wrapper">
+            <div class="book-wrapper">
+                <div class="book-text-wrapper">
+                    <h3>Eloquent JavaScript: <br/>a Modern Introduction to Programming</h3>
+                    <div class="book-under-the-title">
+                        <div>
+                            <span>by <a href="#">Marin Haverbeke</a></span>
+                            <span class="green-contour button">Follow</span>
+                        </div>
+                        <div>
+                            Published on 2015
+                        </div>
+                        <div>
+                            2nd Edition
+                        </div>
+                    </div>
+                    <div class="book-text-sections">
+                        <div>
+                            <p>
+                                JavaScript lies at the heart of almost every modern web application, from social apps to the newest browser-based games. Though simple for beginners to pick up play with, JavaScript is a flexible, complex language that you can use to build full-scale applications.
+                            </p>
+                            <p>Eloquent JavaScript, 2nd Edition dives deep into the JavaScript language to show you how to write beautiful, effective code.</p>
+                            <p><a href="#">Read more</a></p>
+                        </div>
+                        <div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="book-img-wrapper">
+                    <img src="images/book_1.png" alt="Books.Modern Developer // Eloquent Javascript">
+                </div>
+            </div>
+            <div class="book-wrapper">
+
+            </div>
+            <div class="book-wrapper">
+
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-wrapper">
+            <div class="footer left-content">
+                <img src="images/books.MD_footer_logo_icon.png" alt="Books.Modern Developer footer logo">
+                <p><b>Books</b>.Modern Developer</p>
+            </div>
+            <div class="footer right-content">
+                <p class="copyright">&copy; 2016 Modern Developer Inc.</p>
+                <a class="email" href="mailto:books@moderndeveloper.com">books@moderndeveloper.com</a>
+            </div>
+        </div>
     </footer>
 </body>
 </html>
